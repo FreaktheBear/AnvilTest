@@ -14,7 +14,6 @@ Button1 = IX_PU(6)
 Button2 = IX_PU(7)
 Relais1 = QX(14)
 
-
 # Asynchronous main function
 async def main():
     asyncio.create_task(anvil.pico.connect(UPLINK_KEY))
